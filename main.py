@@ -12,7 +12,7 @@ load_dotenv("config/env/.env")
 
 async def main():
     director = DirectorContainer.director()
-    # TODO: Add webhook
+    await director.setup()
     logger.info("Start polling")
     await director.start()
 

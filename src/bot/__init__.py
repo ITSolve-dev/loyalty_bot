@@ -7,6 +7,6 @@ container = DirectorContainer()
 container.wire(packages=["src.apps"])
 
 __all__ = (
-    DirectorContainer,
-    container,
+    "DirectorContainer",
+    "container",
 )

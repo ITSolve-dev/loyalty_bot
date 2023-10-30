@@ -16,6 +16,7 @@ pydantic-settings = "*"
 dependency-injector = {extras = ["pydantic-settings"], version = "*"}
 sqlalchemy = {extras = ["asyncio"], version = "*"}
 pytest = "*"
+qrcode = "*"
 
 [dev-packages]
 black = "*"
@@ -42,13 +43,11 @@ seed = "python scripts/run_seeds.py"
 migrate = "alembic upgrade head"
 manual_migration = "alembic revision -m"
 auto_migration = "alembic revision --autogenerate"
-
 test = "pytest --disable-warnings -v"
 lint = "flake8 src settings"
 imports = "isort --diff --atomic src settings"
 format = "black --diff src settings"
 bandit-check = "bandit -c pyproject.toml -r src"
 types = "mypy --config-file pyproject.toml src/apps"
-
 fix-imports = "isort src settings"
 fix-format = "black src settings"

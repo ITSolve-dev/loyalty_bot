@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "5bb4c66221618801c2cc7ea0dbd0222dd85ca3225a7d82bc54ea00898ff038dc"
+            "sha256": "c9a3b5e590c11f0981c7d48cfb2f27e60d5604066200edbdd885d091e629340f"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -860,6 +860,13 @@
             "index": "pypi",
             "version": "==2.0.3"
         },
+        "pypng": {
+            "hashes": [
+                "sha256:4a43e969b8f5aaafb2a415536c1a8ec7e341cd6a3f957fd5b5f32a4cfeed902c",
+                "sha256:739c433ba96f078315de54c0db975aee537cbc3e1d0ae4ed9aab0ca1e427e2c1"
+            ],
+            "version": "==0.20220715.0"
+        },
         "pytest": {
             "hashes": [
                 "sha256:1d881c6124e08ff0a1bb75ba3ec0bfd8b5354a01c194ddd5a0a870a48d99b002",
@@ -875,6 +882,14 @@
             ],
             "index": "pypi",
             "version": "==1.0.0"
+        },
+        "qrcode": {
+            "hashes": [
+                "sha256:581dca7a029bcb2deef5d01068e39093e80ef00b4a61098a2182eac59d01643a",
+                "sha256:9dd969454827e127dbd93696b20747239e6d540e082937c90f14ac95b30f5845"
+            ],
+            "index": "pypi",
+            "version": "==7.4.2"
         },
         "six": {
             "hashes": [
